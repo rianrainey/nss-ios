@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="bro-qv-QWs">
-                                <rect key="frame" x="34" y="285" width="532" height="31"/>
+                                <rect key="frame" x="34" y="500" width="532" height="31"/>
                                 <color key="minimumTrackTintColor" red="0.25098040700000002" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="BjZ-Ki-rDg"/>
@@ -32,7 +32,7 @@
                                 </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="RkO-oo-yCl">
-                                <rect key="frame" x="34" y="40" width="532" height="31"/>
+                                <rect key="frame" x="34" y="450" width="532" height="31"/>
                                 <color key="minimumTrackTintColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <action selector="sliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dVk-fO-KfO"/>
@@ -49,18 +49,22 @@
                             <constraint firstItem="bro-qv-QWs" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="Hsy-4e-frd"/>
                             <constraint firstAttribute="centerX" secondItem="Gq2-Zr-AlU" secondAttribute="centerX" id="J97-Zd-GZz"/>
                             <constraint firstItem="Gq2-Zr-AlU" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="O3x-wP-CJi"/>
+                            <constraint firstItem="bro-qv-QWs" firstAttribute="top" secondItem="RkO-oo-yCl" secondAttribute="bottom" constant="20" id="Uey-y6-eee"/>
                             <constraint firstAttribute="bottomMargin" secondItem="Gq2-Zr-AlU" secondAttribute="bottom" constant="20" id="eae-Ax-uYm"/>
                             <constraint firstAttribute="centerY" secondItem="bro-qv-QWs" secondAttribute="centerY" id="jAM-pF-d2k"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Gq2-Zr-AlU" secondAttribute="trailing" constant="20" id="khz-Ak-PCe"/>
                             <constraint firstItem="RkO-oo-yCl" firstAttribute="leading" secondItem="Gq2-Zr-AlU" secondAttribute="trailing" constant="20" id="qZ1-D9-h6k"/>
                             <constraint firstAttribute="trailingMargin" secondItem="RkO-oo-yCl" secondAttribute="trailing" constant="20" id="qZo-yg-XwC"/>
                             <constraint firstAttribute="trailingMargin" secondItem="bro-qv-QWs" secondAttribute="trailing" constant="20" id="qeq-92-so4"/>
+                            <constraint firstItem="Gq2-Zr-AlU" firstAttribute="top" secondItem="bro-qv-QWs" secondAttribute="bottom" constant="20" id="upT-Gs-XUH"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
+                                <exclude reference="3Nc-fi-3sN"/>
+                                <exclude reference="qZ1-D9-h6k"/>
+                                <exclude reference="jAM-pF-d2k"/>
                                 <exclude reference="CdE-aU-KA6"/>
                                 <exclude reference="O3x-wP-CJi"/>
-                                <exclude reference="qZ1-D9-h6k"/>
                             </mask>
                         </variation>
                     </view>
