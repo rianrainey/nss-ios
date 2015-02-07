@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var sliderRed: UISlider!
     @IBOutlet weak var sliderBlue: UISlider!
     @IBOutlet weak var sliderGreen: UISlider!
+    @IBOutlet weak var hexColorLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,8 +41,25 @@ class ViewController: UIViewController {
         self.view.backgroundColor = newColor
         
         updateStatusBarForColor(newColor)
+        updateHexLabel(newColor)
     }
+    
+    func updateHexLabel(newColor: UIColor) {
+        var rgbColor = newColor
+        let max = 15
+        let radix = 16
+        var red: CGFloat = 0.0
+        var green: CGFloat = 0.0
+        var blue: CGFloat = 0.0
+        
+        rgbColor.getRed(&red, green: &green, blue: &blue, alpha: nil)
+        let hexRed = String(Int(red * CGFloat(max)), radix: radix).uppercaseString
+        let hexGreen = String(Int(green * CGFloat(max)), radix: radix).uppercaseString
+        let hexBlue = String(Int(blue * CGFloat(max)), radix: radix).uppercaseString
 
+        hexColorLabel.text = "Hex Color: \(hexRed+hexRed)\(hexGreen+hexGreen)\(hexBlue+hexBlue)"
+    }
+    
     @IBAction func sliderChanged(sender: UISlider) {
         updateViewColor()
     }
