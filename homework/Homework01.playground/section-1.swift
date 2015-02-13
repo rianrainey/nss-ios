@@ -4,7 +4,7 @@ import UIKit
 // Create a random list and then use built-in sort
 func createRandomList (quantity: Int, min: Int, max: Int) -> [Int]{
     var list = [Int]()
-    for i in 0..<quantity{
+    for _ in 0..<quantity{
         list.append(Int(arc4random_uniform(UInt32(max))))
     }
     return list
@@ -15,6 +15,8 @@ randomList.sort { $0 < $1 }
 println(randomList)
 randomList.sort { $0 > $1 }
 println(randomList)
+randomList.sort(>)
+randomList.sort(<)
 
 // Solution 2
 // Abstract sort directions into separate methods
@@ -54,6 +56,9 @@ func createRandomSortedList(direction: NSString, quantity: Int, min: Int, max: I
 
 var list3 = createRandomSortedList("asc", 3, 0, 10)
 var list4 = createRandomSortedList("desc", 5, 0, 10)
+
+// createRandomList(4, 0, 10).sort { $0 < $1 } // Doesn't work
+
 
 // Solution 4 
 // Extend NSArray and add my methods to NSArray class
