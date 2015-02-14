@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_9Balloons" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,69 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BerlinTVTower.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="SKL-q5-7cE">
+                                <rect key="frame" x="0.0" y="0.0" width="2128" height="2832"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="20w-TG-I3c">
+                                <rect key="frame" x="36" y="40" width="528" height="21"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8V-AR-pDJ">
+                                <rect key="frame" x="36" y="236" width="528" height="30"/>
+                                <color key="backgroundColor" red="0.50196081399917603" green="0.0" blue="0.25098040699958801" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="isc-Fo-FHb"/>
+                                </constraints>
+                                <state key="normal" title="Next Balloon">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qa0-B3-rQL"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="20w-TG-I3c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="MhW-nk-0x3"/>
+                            <constraint firstItem="a8V-AR-pDJ" firstAttribute="centerX" secondItem="SKL-q5-7cE" secondAttribute="centerX" id="TGa-4k-Fvs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="a8V-AR-pDJ" secondAttribute="trailing" constant="20" id="U1K-7o-RGg"/>
+                            <constraint firstItem="SKL-q5-7cE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ZSy-nh-1og"/>
+                            <constraint firstAttribute="centerX" secondItem="a8V-AR-pDJ" secondAttribute="centerX" id="a0G-Md-fg1"/>
+                            <constraint firstItem="a8V-AR-pDJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="bgs-V4-b3s"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a8V-AR-pDJ" secondAttribute="bottom" constant="409" id="efO-qO-yKx"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="a8V-AR-pDJ" secondAttribute="bottom" constant="290" id="jcX-22-Sqb"/>
+                            <constraint firstItem="20w-TG-I3c" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="ooX-w0-PLr"/>
+                            <constraint firstItem="SKL-q5-7cE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sWF-Qi-82y"/>
+                            <constraint firstItem="20w-TG-I3c" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="20" id="v3y-sn-UwR"/>
+                            <constraint firstItem="a8V-AR-pDJ" firstAttribute="top" secondItem="20w-TG-I3c" secondAttribute="bottom" constant="175" id="weN-cq-w2L"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="20w-TG-I3c" secondAttribute="trailing" constant="20" id="yz8-5d-yrm"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="v3y-sn-UwR"/>
+                                <exclude reference="TGa-4k-Fvs"/>
+                                <exclude reference="weN-cq-w2L"/>
+                                <exclude reference="efO-qO-yKx"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="balloonImageView" destination="SKL-q5-7cE" id="bJ4-ch-Rjk"/>
+                        <outlet property="numberLabel" destination="20w-TG-I3c" id="QV1-MZ-inY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="BerlinTVTower.jpg" width="2128" height="2832"/>
+    </resources>
 </document>

@@ -16,7 +16,11 @@ class ViewController: UIViewController {
   @IBOutlet weak var randomFactLabel: UILabel!
   
   var myTigers:[Tiger] = []
+  var myLions:[Lion] = []
+  var myLionCubs:[LionCub] = []
+  
   var currentIndex = 0
+  var currentAnimal = (species: "Tiger", index: 0)
   
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -53,6 +57,43 @@ class ViewController: UIViewController {
     fourthTiger.image = UIImage(named:"SiberianTiger.jpg")
     
     myTigers += [myTiger, secondTiger, thirdTiger, fourthTiger]
+    
+    var lion = Lion()
+    lion.age = 4
+    lion.isAlphaMale = true
+    lion.image = UIImage(named: "Lion.jpg")
+    lion.name = "Mufasa"
+    lion.subSpecies = "West African"
+    
+    
+    var lioness = Lion()
+    lioness.age = 3
+    lioness.isAlphaMale = false
+    lioness.image = UIImage(named: "Lioness.jpeg")
+    lioness.name = "Sarabi"
+    lioness.subSpecies = "Barbary"
+    
+    var lionCub = LionCub()
+    lionCub.age = 1
+    lionCub.name = "Simba"
+    lionCub.image = UIImage(named: "LionCub1.jpg")
+    lionCub.subSpecies = "Masai"
+    lionCub.isAlphaMale = true
+    
+    lion.roar()
+    lioness.roar()
+    lionCub.roar()
+    lionCub.rubLionsCubBelly()
+    
+    var femaleLionCub = LionCub()
+    femaleLionCub.age = 1
+    femaleLionCub.name = "Nala"
+    femaleLionCub.image = UIImage(named: "LionCub2.jpeg")
+    femaleLionCub.subSpecies = "Transvaal"
+    femaleLionCub.isAlphaMale = false
+    
+    self.myLionCubs += [lionCub, femaleLionCub]
+    self.myLions += [lion, lioness]
   }
 
   override func didReceiveMemoryWarning() {
@@ -61,26 +102,57 @@ class ViewController: UIViewController {
   }
 
   @IBAction func nextBarButtonItemPressed(sender: UIBarButtonItem) {
-    var randomIndex:Int
-    
-    do {
-      randomIndex = Int(arc4random_uniform(UInt32(myTigers.count)))
-    } while randomIndex == currentIndex
-    
-    currentIndex = randomIndex
-    let currentTiger = myTigers[currentIndex]
-    
+    updateAnimal()
+    updateView()
+  }
+
+  func updateAnimal() {
+    switch currentAnimal {
+    case ("Tiger", _):
+      let randomIndex = Int(arc4random_uniform(UInt32(myLions.count)))
+      currentAnimal = ("Lion", randomIndex)
+    case ("Lion", _):
+      let randomIndex = Int(arc4random_uniform(UInt32(myLionCubs.count)))
+      currentAnimal = ("LionCub", randomIndex)
+    default:
+      let randomIndex = Int(arc4random_uniform(UInt32(myTigers.count)))
+      currentAnimal = ("Tiger", randomIndex)
+    }
+  }
+  
+  func updateView() {
     UIView.transitionWithView(self.view, duration: 1, options: UIViewAnimationOptions.TransitionCrossDissolve, animations: {
-        self.myImageView.image = currentTiger.image
-        self.nameLabel.text = currentTiger.name
-        self.ageLabel.text = "\(currentTiger.age)"
-        self.breedLabel.text = currentTiger.breed
-        self.randomFactLabel.text = currentTiger.randomFact()
-        currentTiger.chuff()
+
+      if self.currentAnimal.species == "Tiger" {
+        let tiger = self.myTigers[self.currentAnimal.index]
+        self.myImageView.image = tiger.image
+        self.breedLabel.text = tiger.breed
+        self.ageLabel.text = "\(tiger.age)"
+        self.nameLabel.text = tiger.name
+        self.randomFactLabel.text = tiger.randomFact()
+      }
+      else if self.currentAnimal.species == "Lion" {
+        let lion = self.myLions[self.currentAnimal.index]
+        self.myImageView.image = lion.image
+        self.breedLabel.text = lion.subSpecies
+        self.ageLabel.text = "\(lion.age)"
+        self.nameLabel.text = lion.name
+        self.randomFactLabel.text = lion.randomFact()
+      }
+      else if self.currentAnimal.species == "LionCub" {
+        let lionCub = self.myLionCubs[self.currentAnimal.index]
+        self.myImageView.image = lionCub.image
+        self.breedLabel.text = lionCub.subSpecies
+        self.ageLabel.text = "\(lionCub.age)"
+        self.nameLabel.text = lionCub.name
+        self.randomFactLabel.text = lionCub.randomFact()
+      }
+      
+      self.randomFactLabel.hidden = false
+      
       }, completion: {
         (finished: Bool) -> () in
-      })
-    }
-
+    })
+  }
 }
 
