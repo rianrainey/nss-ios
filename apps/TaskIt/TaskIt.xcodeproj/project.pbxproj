@@ -7,48 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EAAB79861A915432008C04E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB79851A915432008C04E8 /* AppDelegate.swift */; };
-		EAAB79891A915432008C04E8 /* TaskIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EAAB79871A915432008C04E8 /* TaskIt.xcdatamodeld */; };
-		EAAB798B1A915432008C04E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB798A1A915432008C04E8 /* ViewController.swift */; };
-		EAAB798E1A915432008C04E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAB798C1A915432008C04E8 /* Main.storyboard */; };
-		EAAB79901A915432008C04E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAB798F1A915432008C04E8 /* Images.xcassets */; };
-		EAAB79931A915432008C04E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAB79911A915432008C04E8 /* LaunchScreen.xib */; };
-		EAAB799F1A915432008C04E8 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB799E1A915432008C04E8 /* TaskItTests.swift */; };
+		EAAB79B71A91548B008C04E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB79B61A91548B008C04E8 /* AppDelegate.swift */; };
+		EAAB79B91A91548B008C04E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB79B81A91548B008C04E8 /* ViewController.swift */; };
+		EAAB79BC1A91548B008C04E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAAB79BA1A91548B008C04E8 /* Main.storyboard */; };
+		EAAB79BE1A91548B008C04E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAAB79BD1A91548B008C04E8 /* Images.xcassets */; };
+		EAAB79C11A91548B008C04E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAAB79BF1A91548B008C04E8 /* LaunchScreen.xib */; };
+		EAAB79CD1A91548B008C04E8 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAAB79CC1A91548B008C04E8 /* TaskItTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EAAB79991A915432008C04E8 /* PBXContainerItemProxy */ = {
+		EAAB79C71A91548B008C04E8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EAAB79781A915432008C04E8 /* Project object */;
+			containerPortal = EAAB79A91A91548A008C04E8 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EAAB797F1A915432008C04E8;
+			remoteGlobalIDString = EAAB79B01A91548B008C04E8;
 			remoteInfo = TaskIt;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EAAB79801A915432008C04E8 /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAB79841A915432008C04E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAAB79851A915432008C04E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EAAB79881A915432008C04E8 /* TaskIt.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskIt.xcdatamodel; sourceTree = "<group>"; };
-		EAAB798A1A915432008C04E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EAAB798D1A915432008C04E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EAAB798F1A915432008C04E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		EAAB79921A915432008C04E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		EAAB79981A915432008C04E8 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EAAB799D1A915432008C04E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAAB799E1A915432008C04E8 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		EAAB79B11A91548B008C04E8 /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB79B51A91548B008C04E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAB79B61A91548B008C04E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EAAB79B81A91548B008C04E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EAAB79BB1A91548B008C04E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EAAB79BD1A91548B008C04E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EAAB79C01A91548B008C04E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EAAB79C61A91548B008C04E8 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAAB79CB1A91548B008C04E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAAB79CC1A91548B008C04E8 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EAAB797D1A915432008C04E8 /* Frameworks */ = {
+		EAAB79AE1A91548B008C04E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAB79951A915432008C04E8 /* Frameworks */ = {
+		EAAB79C31A91548B008C04E8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EAAB79771A915432008C04E8 = {
+		EAAB79A81A91548A008C04E8 = {
 			isa = PBXGroup;
 			children = (
-				EAAB79821A915432008C04E8 /* TaskIt */,
-				EAAB799B1A915432008C04E8 /* TaskItTests */,
-				EAAB79811A915432008C04E8 /* Products */,
+				EAAB79B31A91548B008C04E8 /* TaskIt */,
+				EAAB79C91A91548B008C04E8 /* TaskItTests */,
+				EAAB79B21A91548B008C04E8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EAAB79811A915432008C04E8 /* Products */ = {
+		EAAB79B21A91548B008C04E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EAAB79801A915432008C04E8 /* TaskIt.app */,
-				EAAB79981A915432008C04E8 /* TaskItTests.xctest */,
+				EAAB79B11A91548B008C04E8 /* TaskIt.app */,
+				EAAB79C61A91548B008C04E8 /* TaskItTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EAAB79821A915432008C04E8 /* TaskIt */ = {
+		EAAB79B31A91548B008C04E8 /* TaskIt */ = {
 			isa = PBXGroup;
 			children = (
-				EAAB79851A915432008C04E8 /* AppDelegate.swift */,
-				EAAB798A1A915432008C04E8 /* ViewController.swift */,
-				EAAB798C1A915432008C04E8 /* Main.storyboard */,
-				EAAB798F1A915432008C04E8 /* Images.xcassets */,
-				EAAB79911A915432008C04E8 /* LaunchScreen.xib */,
-				EAAB79871A915432008C04E8 /* TaskIt.xcdatamodeld */,
-				EAAB79831A915432008C04E8 /* Supporting Files */,
+				EAAB79B61A91548B008C04E8 /* AppDelegate.swift */,
+				EAAB79B81A91548B008C04E8 /* ViewController.swift */,
+				EAAB79BA1A91548B008C04E8 /* Main.storyboard */,
+				EAAB79BD1A91548B008C04E8 /* Images.xcassets */,
+				EAAB79BF1A91548B008C04E8 /* LaunchScreen.xib */,
+				EAAB79B41A91548B008C04E8 /* Supporting Files */,
 			);
 			path = TaskIt;
 			sourceTree = "<group>";
 		};
-		EAAB79831A915432008C04E8 /* Supporting Files */ = {
+		EAAB79B41A91548B008C04E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAAB79841A915432008C04E8 /* Info.plist */,
+				EAAB79B51A91548B008C04E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EAAB799B1A915432008C04E8 /* TaskItTests */ = {
+		EAAB79C91A91548B008C04E8 /* TaskItTests */ = {
 			isa = PBXGroup;
 			children = (
-				EAAB799E1A915432008C04E8 /* TaskItTests.swift */,
-				EAAB799C1A915432008C04E8 /* Supporting Files */,
+				EAAB79CC1A91548B008C04E8 /* TaskItTests.swift */,
+				EAAB79CA1A91548B008C04E8 /* Supporting Files */,
 			);
 			path = TaskItTests;
 			sourceTree = "<group>";
 		};
-		EAAB799C1A915432008C04E8 /* Supporting Files */ = {
+		EAAB79CA1A91548B008C04E8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				EAAB799D1A915432008C04E8 /* Info.plist */,
+				EAAB79CB1A91548B008C04E8 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +115,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EAAB797F1A915432008C04E8 /* TaskIt */ = {
+		EAAB79B01A91548B008C04E8 /* TaskIt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAB79A21A915432008C04E8 /* Build configuration list for PBXNativeTarget "TaskIt" */;
+			buildConfigurationList = EAAB79D01A91548B008C04E8 /* Build configuration list for PBXNativeTarget "TaskIt" */;
 			buildPhases = (
-				EAAB797C1A915432008C04E8 /* Sources */,
-				EAAB797D1A915432008C04E8 /* Frameworks */,
-				EAAB797E1A915432008C04E8 /* Resources */,
+				EAAB79AD1A91548B008C04E8 /* Sources */,
+				EAAB79AE1A91548B008C04E8 /* Frameworks */,
+				EAAB79AF1A91548B008C04E8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +129,46 @@
 			);
 			name = TaskIt;
 			productName = TaskIt;
-			productReference = EAAB79801A915432008C04E8 /* TaskIt.app */;
+			productReference = EAAB79B11A91548B008C04E8 /* TaskIt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EAAB79971A915432008C04E8 /* TaskItTests */ = {
+		EAAB79C51A91548B008C04E8 /* TaskItTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EAAB79A51A915432008C04E8 /* Build configuration list for PBXNativeTarget "TaskItTests" */;
+			buildConfigurationList = EAAB79D31A91548B008C04E8 /* Build configuration list for PBXNativeTarget "TaskItTests" */;
 			buildPhases = (
-				EAAB79941A915432008C04E8 /* Sources */,
-				EAAB79951A915432008C04E8 /* Frameworks */,
-				EAAB79961A915432008C04E8 /* Resources */,
+				EAAB79C21A91548B008C04E8 /* Sources */,
+				EAAB79C31A91548B008C04E8 /* Frameworks */,
+				EAAB79C41A91548B008C04E8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EAAB799A1A915432008C04E8 /* PBXTargetDependency */,
+				EAAB79C81A91548B008C04E8 /* PBXTargetDependency */,
 			);
 			name = TaskItTests;
 			productName = TaskItTests;
-			productReference = EAAB79981A915432008C04E8 /* TaskItTests.xctest */;
+			productReference = EAAB79C61A91548B008C04E8 /* TaskItTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EAAB79781A915432008C04E8 /* Project object */ = {
+		EAAB79A91A91548A008C04E8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Centresource;
 				TargetAttributes = {
-					EAAB797F1A915432008C04E8 = {
+					EAAB79B01A91548B008C04E8 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
-					EAAB79971A915432008C04E8 = {
+					EAAB79C51A91548B008C04E8 = {
 						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = EAAB797F1A915432008C04E8;
+						TestTargetID = EAAB79B01A91548B008C04E8;
 					};
 				};
 			};
-			buildConfigurationList = EAAB797B1A915432008C04E8 /* Build configuration list for PBXProject "TaskIt" */;
+			buildConfigurationList = EAAB79AC1A91548A008C04E8 /* Build configuration list for PBXProject "TaskIt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +176,29 @@
 				en,
 				Base,
 			);
-			mainGroup = EAAB79771A915432008C04E8;
-			productRefGroup = EAAB79811A915432008C04E8 /* Products */;
+			mainGroup = EAAB79A81A91548A008C04E8;
+			productRefGroup = EAAB79B21A91548B008C04E8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EAAB797F1A915432008C04E8 /* TaskIt */,
-				EAAB79971A915432008C04E8 /* TaskItTests */,
+				EAAB79B01A91548B008C04E8 /* TaskIt */,
+				EAAB79C51A91548B008C04E8 /* TaskItTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EAAB797E1A915432008C04E8 /* Resources */ = {
+		EAAB79AF1A91548B008C04E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAB798E1A915432008C04E8 /* Main.storyboard in Resources */,
-				EAAB79931A915432008C04E8 /* LaunchScreen.xib in Resources */,
-				EAAB79901A915432008C04E8 /* Images.xcassets in Resources */,
+				EAAB79BC1A91548B008C04E8 /* Main.storyboard in Resources */,
+				EAAB79C11A91548B008C04E8 /* LaunchScreen.xib in Resources */,
+				EAAB79BE1A91548B008C04E8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAB79961A915432008C04E8 /* Resources */ = {
+		EAAB79C41A91548B008C04E8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +208,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EAAB797C1A915432008C04E8 /* Sources */ = {
+		EAAB79AD1A91548B008C04E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAB798B1A915432008C04E8 /* ViewController.swift in Sources */,
-				EAAB79861A915432008C04E8 /* AppDelegate.swift in Sources */,
-				EAAB79891A915432008C04E8 /* TaskIt.xcdatamodeld in Sources */,
+				EAAB79B91A91548B008C04E8 /* ViewController.swift in Sources */,
+				EAAB79B71A91548B008C04E8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAB79941A915432008C04E8 /* Sources */ = {
+		EAAB79C21A91548B008C04E8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAAB799F1A915432008C04E8 /* TaskItTests.swift in Sources */,
+				EAAB79CD1A91548B008C04E8 /* TaskItTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EAAB799A1A915432008C04E8 /* PBXTargetDependency */ = {
+		EAAB79C81A91548B008C04E8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EAAB797F1A915432008C04E8 /* TaskIt */;
-			targetProxy = EAAB79991A915432008C04E8 /* PBXContainerItemProxy */;
+			target = EAAB79B01A91548B008C04E8 /* TaskIt */;
+			targetProxy = EAAB79C71A91548B008C04E8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EAAB798C1A915432008C04E8 /* Main.storyboard */ = {
+		EAAB79BA1A91548B008C04E8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EAAB798D1A915432008C04E8 /* Base */,
+				EAAB79BB1A91548B008C04E8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EAAB79911A915432008C04E8 /* LaunchScreen.xib */ = {
+		EAAB79BF1A91548B008C04E8 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EAAB79921A915432008C04E8 /* Base */,
+				EAAB79C01A91548B008C04E8 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +255,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EAAB79A01A915432008C04E8 /* Debug */ = {
+		EAAB79CE1A91548B008C04E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -302,7 +298,7 @@
 			};
 			name = Debug;
 		};
-		EAAB79A11A915432008C04E8 /* Release */ = {
+		EAAB79CF1A91548B008C04E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -338,7 +334,7 @@
 			};
 			name = Release;
 		};
-		EAAB79A31A915432008C04E8 /* Debug */ = {
+		EAAB79D11A91548B008C04E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -348,7 +344,7 @@
 			};
 			name = Debug;
 		};
-		EAAB79A41A915432008C04E8 /* Release */ = {
+		EAAB79D21A91548B008C04E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -358,7 +354,7 @@
 			};
 			name = Release;
 		};
-		EAAB79A61A915432008C04E8 /* Debug */ = {
+		EAAB79D41A91548B008C04E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,7 +373,7 @@
 			};
 			name = Debug;
 		};
-		EAAB79A71A915432008C04E8 /* Release */ = {
+		EAAB79D51A91548B008C04E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -395,45 +391,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EAAB797B1A915432008C04E8 /* Build configuration list for PBXProject "TaskIt" */ = {
+		EAAB79AC1A91548A008C04E8 /* Build configuration list for PBXProject "TaskIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAB79A01A915432008C04E8 /* Debug */,
-				EAAB79A11A915432008C04E8 /* Release */,
+				EAAB79CE1A91548B008C04E8 /* Debug */,
+				EAAB79CF1A91548B008C04E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EAAB79A21A915432008C04E8 /* Build configuration list for PBXNativeTarget "TaskIt" */ = {
+		EAAB79D01A91548B008C04E8 /* Build configuration list for PBXNativeTarget "TaskIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAB79A31A915432008C04E8 /* Debug */,
-				EAAB79A41A915432008C04E8 /* Release */,
+				EAAB79D11A91548B008C04E8 /* Debug */,
+				EAAB79D21A91548B008C04E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		EAAB79A51A915432008C04E8 /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
+		EAAB79D31A91548B008C04E8 /* Build configuration list for PBXNativeTarget "TaskItTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EAAB79A61A915432008C04E8 /* Debug */,
-				EAAB79A71A915432008C04E8 /* Release */,
+				EAAB79D41A91548B008C04E8 /* Debug */,
+				EAAB79D51A91548B008C04E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		EAAB79871A915432008C04E8 /* TaskIt.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EAAB79881A915432008C04E8 /* TaskIt.xcdatamodel */,
-			);
-			currentVersion = EAAB79881A915432008C04E8 /* TaskIt.xcdatamodel */;
-			path = TaskIt.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = EAAB79781A915432008C04E8 /* Project object */;
+	rootObject = EAAB79A91A91548A008C04E8 /* Project object */;
 }
