@@ -13,6 +13,7 @@
 		EA02AAB11AA5376000C8942C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02AAB01AA5376000C8942C /* Images.xcassets */; };
 		EA02AAB41AA5376000C8942C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02AAB21AA5376000C8942C /* LaunchScreen.xib */; };
 		EA02AAC01AA5376000C8942C /* BlocksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02AABF1AA5376000C8942C /* BlocksTests.swift */; };
+		EA02AACA1AA5421600C8942C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02AAC91AA5421600C8942C /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		EA02AAB91AA5376000C8942C /* BlocksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlocksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA02AABE1AA5376000C8942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EA02AABF1AA5376000C8942C /* BlocksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlocksTests.swift; sourceTree = "<group>"; };
+		EA02AAC91AA5421600C8942C /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				EA02AAB01AA5376000C8942C /* Images.xcassets */,
 				EA02AAB21AA5376000C8942C /* LaunchScreen.xib */,
 				EA02AAA71AA5376000C8942C /* Supporting Files */,
+				EA02AAC91AA5421600C8942C /* ViewController.xib */,
 			);
 			path = Blocks;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 			files = (
 				EA02AAAF1AA5376000C8942C /* Main.storyboard in Resources */,
 				EA02AAB41AA5376000C8942C /* LaunchScreen.xib in Resources */,
+				EA02AACA1AA5421600C8942C /* ViewController.xib in Resources */,
 				EA02AAB11AA5376000C8942C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

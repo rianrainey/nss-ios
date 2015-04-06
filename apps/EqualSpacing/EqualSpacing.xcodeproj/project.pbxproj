@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA02AADA1AA5434600C8942C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02AAD91AA5434600C8942C /* AppDelegate.swift */; };
+		EA02AADC1AA5434600C8942C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02AADB1AA5434600C8942C /* ViewController.swift */; };
+		EA02AADF1AA5434600C8942C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA02AADD1AA5434600C8942C /* Main.storyboard */; };
+		EA02AAE11AA5434600C8942C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA02AAE01AA5434600C8942C /* Images.xcassets */; };
+		EA02AAE41AA5434600C8942C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA02AAE21AA5434600C8942C /* LaunchScreen.xib */; };
+		EA02AAF01AA5434600C8942C /* EqualSpacingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA02AAEF1AA5434600C8942C /* EqualSpacingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA02AAEA1AA5434600C8942C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA02AACC1AA5434600C8942C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA02AAD31AA5434600C8942C;
+			remoteInfo = EqualSpacing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA02AAD41AA5434600C8942C /* EqualSpacing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EqualSpacing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02AAD81AA5434600C8942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02AAD91AA5434600C8942C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA02AADB1AA5434600C8942C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA02AADE1AA5434600C8942C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA02AAE01AA5434600C8942C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EA02AAE31AA5434600C8942C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EA02AAE91AA5434600C8942C /* EqualSpacingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EqualSpacingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA02AAEE1AA5434600C8942C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA02AAEF1AA5434600C8942C /* EqualSpacingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EqualSpacingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA02AAD11AA5434600C8942C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02AAE61AA5434600C8942C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA02AACB1AA5434600C8942C = {
+			isa = PBXGroup;
+			children = (
+				EA02AAD61AA5434600C8942C /* EqualSpacing */,
+				EA02AAEC1AA5434600C8942C /* EqualSpacingTests */,
+				EA02AAD51AA5434600C8942C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA02AAD51AA5434600C8942C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA02AAD41AA5434600C8942C /* EqualSpacing.app */,
+				EA02AAE91AA5434600C8942C /* EqualSpacingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA02AAD61AA5434600C8942C /* EqualSpacing */ = {
+			isa = PBXGroup;
+			children = (
+				EA02AAD91AA5434600C8942C /* AppDelegate.swift */,
+				EA02AADB1AA5434600C8942C /* ViewController.swift */,
+				EA02AADD1AA5434600C8942C /* Main.storyboard */,
+				EA02AAE01AA5434600C8942C /* Images.xcassets */,
+				EA02AAE21AA5434600C8942C /* LaunchScreen.xib */,
+				EA02AAD71AA5434600C8942C /* Supporting Files */,
+			);
+			path = EqualSpacing;
+			sourceTree = "<group>";
+		};
+		EA02AAD71AA5434600C8942C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA02AAD81AA5434600C8942C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA02AAEC1AA5434600C8942C /* EqualSpacingTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA02AAEF1AA5434600C8942C /* EqualSpacingTests.swift */,
+				EA02AAED1AA5434600C8942C /* Supporting Files */,
+			);
+			path = EqualSpacingTests;
+			sourceTree = "<group>";
+		};
+		EA02AAED1AA5434600C8942C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA02AAEE1AA5434600C8942C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA02AAD31AA5434600C8942C /* EqualSpacing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02AAF31AA5434600C8942C /* Build configuration list for PBXNativeTarget "EqualSpacing" */;
+			buildPhases = (
+				EA02AAD01AA5434600C8942C /* Sources */,
+				EA02AAD11AA5434600C8942C /* Frameworks */,
+				EA02AAD21AA5434600C8942C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EqualSpacing;
+			productName = EqualSpacing;
+			productReference = EA02AAD41AA5434600C8942C /* EqualSpacing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA02AAE81AA5434600C8942C /* EqualSpacingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA02AAF61AA5434600C8942C /* Build configuration list for PBXNativeTarget "EqualSpacingTests" */;
+			buildPhases = (
+				EA02AAE51AA5434600C8942C /* Sources */,
+				EA02AAE61AA5434600C8942C /* Frameworks */,
+				EA02AAE71AA5434600C8942C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA02AAEB1AA5434600C8942C /* PBXTargetDependency */,
+			);
+			name = EqualSpacingTests;
+			productName = EqualSpacingTests;
+			productReference = EA02AAE91AA5434600C8942C /* EqualSpacingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA02AACC1AA5434600C8942C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Centresource;
+				TargetAttributes = {
+					EA02AAD31AA5434600C8942C = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = ZJLHD2N3Z5;
+					};
+					EA02AAE81AA5434600C8942C = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = EA02AAD31AA5434600C8942C;
+					};
+				};
+			};
+			buildConfigurationList = EA02AACF1AA5434600C8942C /* Build configuration list for PBXProject "EqualSpacing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA02AACB1AA5434600C8942C;
+			productRefGroup = EA02AAD51AA5434600C8942C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA02AAD31AA5434600C8942C /* EqualSpacing */,
+				EA02AAE81AA5434600C8942C /* EqualSpacingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA02AAD21AA5434600C8942C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02AADF1AA5434600C8942C /* Main.storyboard in Resources */,
+				EA02AAE41AA5434600C8942C /* LaunchScreen.xib in Resources */,
+				EA02AAE11AA5434600C8942C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02AAE71AA5434600C8942C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA02AAD01AA5434600C8942C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02AADC1AA5434600C8942C /* ViewController.swift in Sources */,
+				EA02AADA1AA5434600C8942C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA02AAE51AA5434600C8942C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA02AAF01AA5434600C8942C /* EqualSpacingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA02AAEB1AA5434600C8942C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA02AAD31AA5434600C8942C /* EqualSpacing */;
+			targetProxy = EA02AAEA1AA5434600C8942C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA02AADD1AA5434600C8942C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02AADE1AA5434600C8942C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA02AAE21AA5434600C8942C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA02AAE31AA5434600C8942C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA02AAF11AA5434600C8942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA02AAF21AA5434600C8942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA02AAF41AA5434600C8942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EqualSpacing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		EA02AAF51AA5434600C8942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = EqualSpacing/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		EA02AAF71AA5434600C8942C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EqualSpacingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EqualSpacing.app/EqualSpacing";
+			};
+			name = Debug;
+		};
+		EA02AAF81AA5434600C8942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = EqualSpacingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EqualSpacing.app/EqualSpacing";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA02AACF1AA5434600C8942C /* Build configuration list for PBXProject "EqualSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02AAF11AA5434600C8942C /* Debug */,
+				EA02AAF21AA5434600C8942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02AAF31AA5434600C8942C /* Build configuration list for PBXNativeTarget "EqualSpacing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02AAF41AA5434600C8942C /* Debug */,
+				EA02AAF51AA5434600C8942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA02AAF61AA5434600C8942C /* Build configuration list for PBXNativeTarget "EqualSpacingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA02AAF71AA5434600C8942C /* Debug */,
+				EA02AAF81AA5434600C8942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA02AACC1AA5434600C8942C /* Project object */;
+}

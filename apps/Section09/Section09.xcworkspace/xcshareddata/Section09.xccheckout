@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2CBF84AA-24AD-40C6-9E3E-0C04130CBF31</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Section09</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3D60FD7B3A9B51AC0806319F652493DFEF6FD960</key>
+		<string>github.com:rianrainey/roadtrip-weather.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Section09/Section09.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3D60FD7B3A9B51AC0806319F652493DFEF6FD960</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:rianrainey/roadtrip-weather.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3D60FD7B3A9B51AC0806319F652493DFEF6FD960</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3D60FD7B3A9B51AC0806319F652493DFEF6FD960</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RoadWeather</string>
+		</dict>
+	</array>
+</dict>
+</plist>
